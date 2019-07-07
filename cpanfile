@@ -24,10 +24,6 @@ requires 'XML::SAX::Base';
 requires 'LWP::UserAgent';
 requires 'LWP::Protocol::https';
 
-# This syntax is not working
-#requires 'TabParser','0.01', git => 'git://github.com/inab/TabParser.git', ref => '0.01';
-requires 'TabParser', '0.01', url => 'https://github.com/inab/TabParser/archive/0.01.tar.gz';
-
 on test => sub {
     requires 'Test::More', '0.96';
 };
