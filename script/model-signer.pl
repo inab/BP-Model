@@ -1,9 +1,8 @@
-#!/usr/bin/perl -W
+#!/usr/bin/perl
 
 use strict;
+use warnings 'all';
 
-use FindBin;
-use lib "$FindBin::Bin/lib";
 use BP::Model;
 
 
