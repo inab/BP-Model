@@ -26,7 +26,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.034"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
@@ -79,7 +79,7 @@
          "web" : "https://github.com/inab/BP-Model"
       }
    },
-   "version" : "v1.01",
+   "version" : "v1.1.1",
    "x_contributors" : [
       "Jos\u00e9 Mar\u00eda Fern\u00e1ndez <jmfernandez@cnio.es>",
       "Jos\u00e9 Mar\u00eda Fern\u00e1ndez <jmfernandez@users.noreply.github.com>",
