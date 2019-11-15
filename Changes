@@ -2,6 +2,9 @@ Revision history for BP-Model
 
 {{$NEXT}}
 
+	- Added development dependency on OrePAN2.
+	- Used Dist::Zilla::Plugin::Run for releases.
+
 v1.01
 	- Removed dependency on TabParser, as it is not needed
 
