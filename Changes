@@ -2,6 +2,8 @@ Revision history for BP-Model
 
 {{$NEXT}}
 
+v1.1.2  2019-11-15 17:44:08 CET
+
 	- Added development dependency on OrePAN2.
 	- Used Dist::Zilla::Plugin::Run for releases.
 
