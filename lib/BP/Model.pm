@@ -35,7 +35,7 @@ package BP::Model;
 
 use version;
 
-our $VERSION = version->declare('v1.1.2');
+our $VERSION = version->declare('v1.1.3');
 
 =encoding utf-8
 
