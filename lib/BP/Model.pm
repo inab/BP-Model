@@ -45,8 +45,12 @@ BP::Model - Bioinformatic Pantry data Model classes
 
 =head1 SYNOPSIS
 
+=for markdown ```perl
+
   use BP::Model;
   my $model = BP::Model->new($modelFile);
+
+=for markdown ```
 
 =head1 DESCRIPTION
 
@@ -1068,6 +1072,17 @@ sub metadataCollection() {
 	return $self->{_metaColl};
 }
 
+
+=head1 INSTALLATION
+
+Latest release of this package is available in the L<BSC INB DarkPAN|https://gitlab.bsc.es/inb/darkpan/>. You
+can install it just using C<cpanm>:
+
+=for markdown ```bash
+
+  cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ BP::Model
+
+=for markdown ```
 
 =head1 AUTHOR
 

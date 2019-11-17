@@ -1,6 +1,8 @@
 Revision history for BP-Model
 
 {{$NEXT}}
+	- Improved documentation about installing this module from BSC INB DarkPAN.
+	- Added explicit developing dependence on MakeMaker.
 
 v1.1.2  2019-11-15 17:44:08 CET
 
